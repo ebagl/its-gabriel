@@ -1,7 +1,6 @@
 {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
     "files.associations": {
-    "*.css": "tailwindcss"
-}
+        "*.css": "tailwindcss"
+      },
+      "editor.formatOnSave": true
 }
