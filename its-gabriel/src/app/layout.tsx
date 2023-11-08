@@ -34,7 +34,7 @@ export default function RootLayout({
         <Container>
           <div className="flex h-screen flex-col justify-between font-sans">
             <Header />
-            <main className="mb-auto">{children}</main>
+            <main className="mb-auto h-full w-full">{children}</main>
           </div>
         </Container>
         <Analytics />

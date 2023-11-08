@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <header className="flex items-center justify-between py-10">
+        <header className="flex items-center justify-between py-5">
             <div>
                 <Link href="/" aria-label={SiteConstants.header}>
                     <div className="flex items-center justify-between">
