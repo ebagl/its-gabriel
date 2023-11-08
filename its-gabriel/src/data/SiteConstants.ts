@@ -1,5 +1,5 @@
 export const SiteConstants = {
-  title: "Gabriel's Personal Site",
+  title: "Gabriel Lahman",
   description: "This is the personal website of gabriel lahman",
   header: "Gabriel Lahman",
   author: "Gabriel Lahman",

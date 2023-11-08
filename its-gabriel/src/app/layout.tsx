@@ -1,13 +1,19 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
+
+import { Manrope } from 'next/font/google';
+
 
 import { SiteConstants } from '@/data/SiteConstants';
 import Header from '@/components/Header';
 import Container from '@/components/Container';
 
-const inter = Inter({ subsets: ['latin'] });
+const manrope = Manrope({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-manrope'
+});
 
 export const metadata: Metadata = {
   title: SiteConstants.title,
@@ -20,7 +26,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${manrope.variable} scroll-smooth`}
+    >
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white">
         <Container>
           <div className="flex h-screen flex-col justify-between font-sans">
