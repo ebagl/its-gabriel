@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
 import { SiteConstants } from '@/data/SiteConstants';
 import Header from '@/components/Header';
@@ -27,6 +28,7 @@ export default function RootLayout({
             <main className="mb-auto">{children}</main>
           </div>
         </Container>
+        <Analytics />
       </body>
     </html>
   );
