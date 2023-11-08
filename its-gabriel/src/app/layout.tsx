@@ -16,8 +16,17 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SiteConstants.siteUrl),
   title: SiteConstants.title,
   description: SiteConstants.description,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    }
+  }
 };
 
 export default function RootLayout({
