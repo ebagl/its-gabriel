@@ -1,4 +1,4 @@
-import { SiteConstants } from "@/data/siteConstants";
+import { SiteConstants } from "@/data/SiteConstants";
 
 export default function Home() {
     return (
