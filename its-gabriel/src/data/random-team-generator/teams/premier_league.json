@@ -1,0 +1,36 @@
+{
+    "teams": [
+        {
+            "team_key": "arsenal",
+            "display_name": "Arsenal"
+        },
+        {
+            "team_key": "aston_villa",
+            "display_name": "Aston Villa"
+        },
+        {
+            "team_key": "bournemouth",
+            "display_name": "Bournemouth"
+        },
+        {
+            "team_key": "brentford",
+            "display_name": "Brentford"
+        },
+        {
+            "team_key": "brighton",
+            "display_name": "Brighton"
+        },
+        {
+            "team_key": "burnley",
+            "display_name": "Burnley"
+        },
+        {
+            "team_key": "chelsea",
+            "display_name": "Chelsea"
+        },
+        {
+            "team_key": "crystal_palace",
+            "display_name": "Crystal Palace"
+        }
+    ]
+}
